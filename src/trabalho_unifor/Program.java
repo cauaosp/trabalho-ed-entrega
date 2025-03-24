@@ -18,8 +18,8 @@ import trabalho_unifor.entities.Palavra;
 public class Program {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-		String texto_leitura = "C:\\Users\\cauao\\source\\repos\\Trabalho_Unifor_HashMap\\texto_para_leitura.txt";
-		String texto_input = "C:\\Users\\cauao\\source\\repos\\Trabalho_Unifor_HashMap\\texto_input.txt";
+		String texto_leitura = "texto_para_leitura.txt";
+		String texto_input = "texto_input.txt";
 		List<String> lista_para_buscar = new ArrayList<>();
 		List<Palavra> lista_encadeada_palavras_adicionadas = new ArrayList<>();
 
@@ -63,7 +63,7 @@ public class Program {
 	}
 
 	public static void escreverResultadosEmArquivo(List<String> listaParaBuscar, List<Palavra> listaEncadeada) {
-		File arquivoDeSaida = new File("C:\\Users\\cauao\\source\\repos\\Trabalho_Unifor_HashMap\\indice_remissivo.txt");
+		File arquivoDeSaida = new File("../src/indice_remissivo.txt");
 
 		try (BufferedWriter writer = new BufferedWriter(new FileWriter(arquivoDeSaida))) {
 			for (String palavraBuscada : listaParaBuscar) {
