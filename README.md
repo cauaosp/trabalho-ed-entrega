@@ -1,5 +1,5 @@
 # trabalho-ed-entrega
-Trabalho de estrutura de dados
+Trabalho de estrutura de dados para criação de um índice remissivo
 
 # Como compilar e rodar projeto
 - Ir para a pasta **trabalho-ed-entrega/src/**
