@@ -1,7 +1,7 @@
 # trabalho-ed-entrega
 Trabalho de estrutura de dados para criação de um índice remissivo
 
-# Como compilar e rodar projeto
+# Como compilar e rodar o projeto
 - Ir para a pasta **trabalho-ed-entrega/src/**
 - rode o comando para compilar: **javac -d ../bin $(Get-ChildItem -Recurse -Filter "*.java")**
 - Ir para a pasta **trabalho-ed-entrega/bin/**
