@@ -41,9 +41,8 @@ public class ListaEncadeada<T> {
 		List<Palavra> lista = new ArrayList<>();
 		No atual = inicio;
 		while (atual != null) {
-				// System.out.println(atual.getElemento().getPalavra() + " " + atual.getElemento().getOcorrencias());
-				lista.add(atual.getElemento());
-				atual = atual.getProximo();
+			lista.add(atual.getElemento());
+			atual = atual.getProximo();
 		}
 		return lista;
 	}

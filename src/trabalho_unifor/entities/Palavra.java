@@ -30,6 +30,6 @@ public class Palavra {
 
 	@Override
 	public String toString() {
-		return palavra + " - " + ocorrencias ;
+		return palavra + " - " + ocorrencias;
 	}
 }
